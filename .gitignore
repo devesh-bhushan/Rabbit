@@ -1,0 +1,63 @@
+# --- Node (server & client) ---
+frontend/node_modules
+backend/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Build output ---
+dist/
+build/
+
+# --- dotenv environment files ---
+frontend/.env
+backend/.env
+.env.*.local
+.env.local
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+logs
+*.log
+logs/**/*.log
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- React ---
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# --- Misc ---
+*.tgz
+.cache/
+.pnp/
+.pnp.js
+
+# --- Optional npm version control ---
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Coverage ---
+coverage/
+
+# --- Mongo dump folder (if you're dumping db data locally) ---
+dump/
+
+# --- Build artifacts (e.g., compiled files) ---
+server/dist/
+client/dist/
+client/build/
+
+# --- Public/uploads or user-generated media (optional) ---
+public/uploads/
+uploads/
