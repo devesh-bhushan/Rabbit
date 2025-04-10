@@ -30,7 +30,7 @@ const Profile = () => {
             <h1 className="text-2xl md:text-3xl font-bold mb-4">
               {user?.name}
             </h1>
-            <p className="text-lg text-gray-600 mb-4"> {user?.email}</p>
+            <p className="text-lg text-gray-600 mb-4 "> {user?.email}</p>
             <button
               onClick={handleLogout}
               type="button"
@@ -39,7 +39,7 @@ const Profile = () => {
               Logout
             </button>
           </div>
-          <div className="w-full md:w-2/3 lg:w-3/4">
+          <div className="w-full md:w-2/3   lg:w-3/4">
             <MyOrdersPage />
           </div>
         </div>
